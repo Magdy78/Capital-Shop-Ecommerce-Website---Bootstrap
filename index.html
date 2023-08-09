@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="bootstrap.min.css" />
   </head>
+
   <body>
     <!-- NavBar part -->
 
@@ -89,12 +90,129 @@
 
     <!-- End of NavBar part -->
 
+    <!-- part between images and Navbar  -->
+
     <div class="header-bottom text-center DifText">
-      <p style="color: aliceblue;">
+      <p style="color: aliceblue">
         Sale Up To 50% Biggest Discounts. Hurry! Limited Perriod Offer
         <a href="#" class="browse-btn ShopButton">Shop Now</a>
       </p>
     </div>
+
+    <!-- End of part between images and Navbar  -->
+
+    <!-- carousel Part  -->
+<section>
+    <div
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade Carousel1"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="assests/h1_hero1.jpg" class="d-block w-100" />
+          <div class="carousel-caption">
+            <h1
+              data-animation="bounceIn"
+              data-delay="0.2s"
+              class=""
+              style="animation-delay: 0.2s"
+            >
+              Minimal Menz Style
+            </h1>
+            <p
+              data-animation="fadeInUp"
+              data-delay="0.4s"
+              class=""
+              style="animation-delay: 0.4s"
+            >
+              Consectetur adipisicing elit. Laborum fuga incidunt laboriosam
+              voluptas iure, <br />delectus dignissimos facilis neque nulla
+              earum.
+            </p>
+
+            <a class="fancy" href="#">
+              <span class="top-key"></span>
+              <span class="text">Shop Now</span>
+              <span class="bottom-key-1"></span>
+              <span class="bottom-key-2"></span>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="assests/h1_hero2.jpg" class="d-block w-100" />
+          <div class="carousel-caption caption2">
+            <h1>Minimal Menz Style</h1>
+            <p>
+              Consectetur adipisicing elit. Laborum fuga incidunt laboriosam
+              voluptas iure, <br />delectus dignissimos facilis neque nulla
+              earum.
+            </p>
+
+            <a class="fancy2" href="#">
+              <span class="top-key"></span>
+              <span class="text">Shop Now</span>
+              <span class="bottom-key-1"></span>
+              <span class="bottom-key-2"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Butons of Carousel -->
+
+      <button
+        class="carousel-control-prev CarouselBtn"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+        style="display: block"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      <!-- buttons of carousel part  -->
+    </div>
+</section>
+    <!-- End of carousel part  -->
+
+<!-- Section of the products -->
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 45px; justify-content:center ; align-items: center;" >
+    <div class="col" style="border-radius: 0;">
+        <div class="card " style="width:400px; " >
+            <img class="card-img-top" src="assests/items1.jpg" alt="Card image">
+            <div class="card-img-overlay"style=" background: linear-gradient(180deg, rgba(255,255,255,0) 62%, rgba(42,42,42,1) 100%);" >
+              <h3 class="card-title ">Men Fashion</h4>
+              </div>
+          </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="assests/items2.jpg" alt="Card image">
+            <div class="card-img-overlay" style=" background: linear-gradient(180deg, rgba(255,255,255,0) 62%, rgba(42,42,42,1) 100%);">
+              <h3 class="card-title">Women Fashion</h4>
+              </div>
+          </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="assests/items3.jpg" alt="Card image">
+            <div class="card-img-overlay" style=" background: linear-gradient(180deg, rgba(255,255,255,0) 62%, rgba(42,42,42,1) 100%);">
+              <h3 class="card-title">Baby Fashion</h4>
+              </div>
+          </div>
+    </div>
+</div>
+<!-- End of Products Sections -->
     <script src="bootstrap.min.js"></script>
   </body>
 </html>
