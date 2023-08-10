@@ -300,4 +300,66 @@
     bottom: -280px;
     justify-content: flex-end;
 }
+.Nevbr{
+  margin-left: 120px;
+ 
+  display: flex;
+}
+.Nevbr .nav-tabs {
+  margin-left: 55%;
+  float: right;
+margin-bottom: 0;
+border: none;
+ 
+}
+.Nevbr .nav-tabs a {
+ color: #fa0000;
+ 
+}
+hr{
+  margin-top: 1px;
+  margin: 0 auto;
+}
 
+@media (min-width: 768px) {
+  .carousel-inner {
+    display: flex;
+  }
+.card-group{
+  max-width: 1200px;
+  justify-content:center ;
+  margin: 45px;
+}
+.card-text{
+ text-align: center;
+}
+.carousel-inner {
+  border: none;
+  padding: 1em;
+}
+.card{
+  margin: 0 .5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+
+}
+
+.ThirdCarousel{
+ 
+  background-color: #F3EAD8;
+height: 400px;
+}
+.ThirdCarousel h2{
+  margin-top: 100px;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+}
+.ThirdCarousel p{
+  margin-top: 50px;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+}
+.testimonial-founder{}
