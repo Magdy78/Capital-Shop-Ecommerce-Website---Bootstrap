@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://db.onlinewebfonts.com/c/0c0dd1e3d2eb6c3c20ba22466208c003?family=Soin+Sans+Pro+Roman");
 
 /* NavBar Part*/
 .navbar-nav .nav-link {
@@ -362,4 +363,213 @@ height: 400px;
   justify-content: center;
   text-align: center;
 }
-.testimonial-founder{}
+
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+.card-text {
+  color: #777;
+}
+.carousel-inner {
+  padding: 20px;
+}
+.CardText{
+  max-width: 54vh;
+align-items: center;
+/* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+padding: 2vh;
+font-weight: bolder;
+text-align: center;
+
+}
+
+.CardText p{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Soin Sans Pro Roman";
+  color: #404040;
+}
+
+.CardText h5{
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+  font-family: "Soin Sans Pro Roman";
+}
+.CardText h5:hover{
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #ff3301;
+  font-family: "Soin Sans Pro Roman";
+}
+.CardText p:hover{
+  cursor: pointer;
+  color: #000000;
+  
+}
+/* Latest News Part */
+.LatestNews{
+  height: 120vh;
+  background-color:#F6F6F6;
+
+}
+.LatestNewsTitle{
+  font-family: "Soin Sans Pro Roman";
+  color: #292621;
+  font-weight: bold;
+  text-align: center;
+ padding: 12vh;
+}
+.blogs-cap{
+  font-family: "Soin Sans Pro Roman";
+}
+.blog-img{
+  margin-bottom: 19px;
+}
+.blogs-cap a{
+  margin-top: 3vh;
+  font-family: "Soin Sans Pro Roman";
+  color: black !important ;
+}
+.blogs-cap h5:hover{
+
+  color: rgb(221, 0, 0) !important ;
+}
+.blogs-cap a:hover{
+
+  color: rgb(221, 0, 0) !important ;
+}
+.cat-cap h5{
+  margin-top: 4vh;
+}
+.cat-cap p{
+  color: #898989;
+}
+
+footer{
+  background-color: #171613;
+}
+
+.subscribe-btn{
+  width: 24%;
+  height: 60px;
+  border: 0;
+  background: #FF2020;
+  border-radius: 0;
+  padding: 13px 24px;
+  color: #fff;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+.footer-tittle li a{
+  color: #e8e8e8;
+}
+@media (max-width: 576px) {
+  .navbar-brand {
+    padding-left: 20px;
+  }
+  .navbar-nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .DifText {
+    padding: 12px;
+    text-align: center;
+  }
+  .Carousel1 button {
+    margin-top: 50px;
+  }
+  .carousel-caption h1,
+  .caption2 h1 {
+    top: -200px;
+  }
+  .carousel-caption p,
+  .caption2 p {
+    top: -150px;
+  }
+  .Nevbr {
+    margin: 10px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .Nevbr .nav-tabs {
+    margin: 10px auto;
+    float: none;
+  }
+  .Nevbr .nav-tabs a {
+    color: #333;
+  }
+  .card-title {
+    left: 0;
+    bottom: -250px;
+    text-align: center;
+  }
+}
+
+/* Media Query for Medium Screens */
+@media (min-width: 577px) and (max-width: 991px) {
+  .Nevbr .nav-tabs {
+    margin-left: 30%;
+  }
+  .card-group {
+    margin: 15px;
+  }
+}
+
+/* Media Query for Large Screens */
+@media (min-width: 992px) {
+  .carousel-inner {
+    display: flex;
+  }
+  .card-group {
+    max-width: 1200px;
+    justify-content: center;
+    margin: 45px;
+  }
+  .card-text {
+    text-align: center;
+  }
+  .carousel-inner {
+    padding: 20px;
+  }
+  .card {
+    margin: 0 0.5em;
+  }
+  .ThirdCarousel {
+    height: 400px;
+  }
+  .CardText {
+    max-width: 54vh;
+    align-items: center;
+    padding: 2vh;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .LatestNewsTitle {
+    padding: 8vh;
+  }
+  .blogs-cap a {
+    margin-top: 2vh;
+  }
+  .subscribe-btn {
+    width: auto;
+    margin-left: 10px;
+  }
+  .footer-tittle li a {
+    color: #e8e8e8;
+  }
+}
